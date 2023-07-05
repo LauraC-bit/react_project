@@ -1,0 +1,56 @@
+.yellow-block {
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0 0 0 1px;
+  border-radius: 18px;
+}
+
+.green-block {
+  background-color: lightgreen;
+  border-radius: 18px;
+  box-shadow: 0 0 0 1px;
+  margin: 8px;
+}
+
+.blue-block {
+  background-color: lightblue;
+  box-shadow: 0 0 0 1px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.red-circle {
+  background-color: lightcoral;
+  box-shadow: 0 0 0 1px;
+  border-radius: 78px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  max-width: 710px;
+  box-shadow: 0 0 0 1px;
+  border-radius: 38px;
+}
+
+.flex {
+  display: flex;
+  gap: 38px;
+}
+
+.flex-inblue {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.flex-inred {
+  min-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
